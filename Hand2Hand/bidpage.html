@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>Hand2Hand</title>
+</head>
+<body bgcolor="azure">
+	<header>
+		<h1 align="center">Place an Bid</h1>
+	</header>
+	<section>
+		<article>
+			<header>
+			<h3 align="center">Place Bid For a Desired Product Here</h3>
+			</header>
+			<div align="center">
+				<form method="get" action="bidpage.php">
+					<ul style="list-style-type:none;">
+						<li style="padding:10px">
+							**All Fields are Mandatory**
+						</li>
+						<li style="padding:5px">
+							Enter Username<br>
+							<input type="text" name="uname" autofocus>
+						</li>
+						<li style="padding:5px">
+							Enter Product Category<br>
+							<select name="category">
+								<option>--Other--</option>
+								<option>Electronics & Home Appliances</option>
+								<option>Furniture</option>
+								<option>Kitchen Items</option>
+								<option>Books</option>
+								<option>Mobiles, Laptops & Accessories</option>
+								<option>Bicycles & Cars</option>
+							</select>
+						</li>
+						<li style="padding:5px">
+							Enter Product ID<br>
+							<input type="text" name="pro_id">
+						</li>
+						<li style="padding:5px">
+							Enter Product Name<br>
+							<input type="text" name="pro_name">
+						</li>
+						<li style="padding:5px">
+							Enter Bidding Amount (In SEK)<br>
+							<input type="text" name="bid_amount">
+						</li>
+						<li style="padding:5px">
+							<input type="submit" name="bid_submit" value="Place Bid">
+						</li>
+					</ul>
+				</form>
+			</div>
+		</article>
+	</section>
+</body>
+</html>

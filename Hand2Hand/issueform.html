@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>Hand2Hand</title>
+</head>
+<body bgcolor="azure">
+	<header>
+		<h1 align="center">Report An Issue</h1>
+	</header>
+	<section>
+		<article>
+			<header>
+			<h3 align="center">Please report the issues using the form below</h3>
+			</header>
+			<div align="center">
+				<form method="get" action="issueform.php" align=center>
+					<ul style="list-style-type:none;">
+						<li style="padding:10px">
+							**All Fields are Mandatory**
+						</li>
+						<li style="padding:5px">
+							Enter Username<br>
+							<input type="text" name="uname" autofocus>
+						</li>
+						<li style="padding:5px">
+							Categorize the issue<br>
+							<select name="category">
+								<option>--Other--</option>
+								<option>About site</option>
+								<option>Site maintenance</option>
+								<option>Site users</option>
+								<option>Product related</option>
+							</select>
+						</li>
+						<li style="padding:5px">
+							Describe the Issue<br>
+							<textarea name="issue_desc" rows="3" cols="25"></textarea>
+						</li style="padding:5px">
+						<li>
+							<input type="submit" name="issue_submit">
+						</li>
+					</ul>
+				</form>
+			</div>
+		</article>
+	</section>
+</body>
+</html>

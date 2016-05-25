@@ -1,5 +1,51 @@
 <html>
-<body background="hands.png" style="background-repeat:no-repeat;">
-<!--<h2 align="center">Welcome to Hand2Hand!!!</h2>-->
+<head>
+<script>
+function abc(z)
+{
+	document.getElementById("targetimage").src=z;
+}
+</script>
+</head>
+<body bgcolor="azure">
+<h1 align="center" font-type="Impact">Welcome to Hand2Hand!!!</h1>
+<table border=1 width=400 height=400 style="position:absolute; top:15%; left:5%;">
+<tr>
+<td align=center><img src="colzstuds.jpg" width=400 height=300 id="targetimage"></td>
+</tr>
+<tr>
+<td height=80>
+<marquee behavior="scroll" scroll="continuous" onmouseover="this.stop()" onmouseout="this.start()">
+<img src="colzstuds.jpg" width=80 height=80 onmouseover="abc(this.src)">
+<img src="book.jpg" width=80 height=80 onmouseover="abc(this.src)">
+<img src="kitch.jpg" width=80 height=80 onmouseover="abc(this.src)">
+<img src="trigon.png" width=80 height=80 onmouseover="abc(this.src)">
+<img src="furni.jpg" width=80 height=80 onmouseover="abc(this.src)">
+<img src="dish.jpg" width=80 height=80 onmouseover="abc(this.src)">
+</marquee>
+</td>
+</tr>
+</table>
+<section width=300px style="position:absolute; right:20%; top:25%">
+	<article width=300px>
+		<header>
+			<hgroup>
+				<h2 align="center">Hey!</h2>
+				<h3 align="center">Are you a new student!</h3>
+			</hgroup>
+		</header>
+		<p style="text-align=justify">
+		Welcome to Hand2Hand. Are you new to the city, <br>
+		and don't know where to find the stuff for your home?
+		<br> Well you've come to the right place. From books to <br>
+		dishes we have it all. All you have to do is follow<br> 
+		two simple steps, and start shopping. So what are you <br>
+		waiting for?
+		</p>
+		<footer>
+		<h3 align="center">Get started by <a href="register.html" target="displayFrame">Clicking Here</a></h3>
+		</footer>
+	</article>
+</section>
 </body>
 </html>
